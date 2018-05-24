@@ -1,41 +1,4 @@
 
-Conversa aberta. Uma mensagem não lida.
-
-Pular para o conteúdo
-Como usar o Gmail com leitores de tela
-Clique aqui para ativar as notificações na área de trabalho para o Gmail.   Saiba mais  Ocultar
-
-  Mais 
-7 de 548
- 
-Fwd: Codigo do projeto 
-Entrada
-x 
-
-Rita Freitas <ritacafreitasaraujo@gmail.com>
-Anexos22 de mai (Há 2 dias)
-para mim 
-   Traduzir mensagem
-Desativar para: inglês
-
----------- Forwarded message ---------
-From: Victor Cavalcante <victorcavalcante97@gmail.com>
-Date: ter, 22 de mai de 2018 20:38
-Subject: Codigo do projeto
-To: <ritacafreitasaraujo@gmail.com>
-
-
-Segue em anexo as classes.
-
-6 anexos
-	
-Clique aqui para Responder ou Encaminhar
-1,25 GB (8%) de 15 GB usados
-Gerenciar
-Termos de Serviço - Privacidade
-Última atividade da conta: Há 1 minuto
-Detalhes
-
 package com.formamais.academiatech.negocio;
 
 public class Aluno extends Usuarios {
