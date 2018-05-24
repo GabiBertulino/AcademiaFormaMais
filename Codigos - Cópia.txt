@@ -1,0 +1,155 @@
+Fucionarios:
+
+package com.formamais.academiatech.negocio;
+
+public class Funcionarios extends Usuarios {
+    private String nome;
+    private int matricula;
+    private int idade;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+}
+
+	Alunos:
+package com.formamais.academiatech.negocio;
+
+public class Aluno extends Usuarios {
+    private String nome;
+    private int matricula;
+    private int cpf;
+    private int idade;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public int getCpf() {
+        return cpf;
+    }
+
+    public void setCpf(int cpf) {
+        this.cpf = cpf;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+}
+
+Instutor : 
+
+package com.formamais.academiatech.negocio;
+
+public class Instrutor extends Usuarios {
+    private String nome;
+    private int matricula;
+    private int idade;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+}
+
+usuarios:
+
+package com.formamais.academiatech.negocio;
+
+public class Usuarios {
+    private String login;
+    private String senha;
+    private double tipoUser;
+    private String keyUser;
+
+    public double getTipoUser() {
+        return tipoUser;
+    }
+
+    public void setTipoUser(double tipoUser) {
+        this.tipoUser = tipoUser;
+    }
+
+    public String getKeyUser() {
+        return keyUser;
+    }
+
+    public void setKeyUser(String keyUser) {
+        this.keyUser = keyUser;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+}
